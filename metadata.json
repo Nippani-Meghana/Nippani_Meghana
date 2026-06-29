@@ -1,0 +1,8 @@
+{
+  "name": "Computational Neuroscience Portfolio",
+  "description": "A professional portfolio website for an undergraduate researcher in computational neuroscience, featuring an interactive stochastic node background.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

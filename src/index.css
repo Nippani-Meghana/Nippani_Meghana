@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Space+Grotesk:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bricolage Grotesque", sans-serif;
+  --font-sans: "Space Grotesk", sans-serif;
+  
+  --color-butter: #fdfae5;
+  --color-butter-dark: #f0ead2;
+  --color-pink-soft: #ffc4d4;
+  --color-pink-deep: #e26d8d;
+  --color-pink-vibrant: #ff5e8e;
+  --color-green-soft: #c8e0ce;
+  --color-green-deep: #245738;
+  --color-green-vibrant: #1fb355;
+  --color-ink: #1a2421;
+  --color-ink-light: #3d4a43;
+}
+
+body {
+  @apply bg-butter text-ink font-sans antialiased selection:bg-pink-soft selection:text-ink;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-butter);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-green-soft);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-green-deep);
+}
