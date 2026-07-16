@@ -130,7 +130,8 @@ export const writings = [
   {
     id: 3,
     title: "Ground Truth: What We Mean By AGI",
-    platform: "To be published",
+    link: "https://open.substack.com/pub/carboncopiesorg/p/ground-truth-what-do-we-mean-by-agi?r=602ij7&utm_campaign=post-expanded-share&utm_medium=web",
+    platform: "Substack",
     description: "A foundational explainer on AGI for a general audience. Argues that the definition of AGI is not just a philosophical question but a practical one — what you define shapes what you build."
   }
 ];
